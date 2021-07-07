@@ -62,11 +62,11 @@ jobs:
           mkdir clash
           wget http://127.0.0.1:90/clash/proxies?c=CN,HK,TW,JP,KR,SG,US  -O clash/proxies
           git clone https://github.com/pojiezhiyuanjun/freev2.git  > ./check-log 2>&1
-          touch freev2
-          ls freev2/ | awk '{print "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/"$0}'  > freev2
+          touch freev2.txt
+          ls freev2/ | awk '{print "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/"$0}'  > freev2.txt
           git clone https://github.com/JACKUSR2089/v2ray-subscribed.git > ./check-log 2>&1
-          touch freev3
-          ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  > name freev3
+          touch freev3.txt
+          ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  > name freev3.txt
           
       - name: 提交更改
         run: |                 
@@ -74,8 +74,8 @@ jobs:
           git config --local user.name "jth445600"
           git add clash/proxies
           git add check-log
-          git add freev2
-          git add freev3
+          git add freev2.txt
+          git add freev3.txt
           git commit -m "更新订阅链接"
           git push 
         # - name: 推送更改
