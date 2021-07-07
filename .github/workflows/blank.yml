@@ -66,7 +66,7 @@ jobs:
           ls freev2/ | awk '{print "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/"$0}'  > freev2.txt
           git clone https://github.com/JACKUSR2089/v2ray-subscribed.git > ./check-log 2>&1
           touch freev3.txt
-          ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  > name freev3.txt
+          ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  >  freev3.txt
           
       - name: 提交更改
         run: |                 
