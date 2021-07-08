@@ -26,9 +26,9 @@ jobs:
       # Runs a single command using the runners shell
       - run: | 
             cd pool
-            chmod  777 ./pool/proxypoolv0.7.3
             ls -lh
             pwd
+            chmod  777 proxypoolv0.7.3
       # - name: Space cleanup
       #   env:
       #     DEBIAN_FRONTEND: noninteractive
