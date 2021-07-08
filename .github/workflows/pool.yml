@@ -24,9 +24,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       # Runs a single command using the runners shell
-      - run: cd pool
-      - run: chmod  777 ./proxypoolv0.7.3
-      - run: ls -lh
+      - run: | 
+            cd pool
+            chmod  777 ./pool/proxypoolv0.7.3
+            ls -lh
+            pwd
       # - name: Space cleanup
       #   env:
       #     DEBIAN_FRONTEND: noninteractive
@@ -38,12 +40,15 @@ jobs:
       #     sudo -E apt-get clean
       - name: execute proxy-pool-check
         run: |
+          cd pool
+          pwd
           ls -lh
           rm -f pool-log
           touch pool-log
-          sudo -E ./proxypoolv0.7.3 -c config.yaml  > ./pool-log 2>&1 &
+          sudo -E proxypoolv0.7.3 -c config.yaml  > pool-log 2>&1 &
       - name: get proxies file by crwle
         run: |
+          cd pool
           pwd
           ls -lh
           s=0 
