@@ -57,7 +57,7 @@ jobs:
                 sleep 10
                 i=$(( $i+1  ))
           done
-          echo $i > ./check-log 2>&1
+          echo $i >> ./check-log 2>&1
           rm -rf clash
           mkdir clash
           wget http://127.0.0.1:90/clash/proxies?c=CN,HK,TW,JP,KR,SG,US  -O clash/proxies
