@@ -52,6 +52,7 @@ jobs:
                 if [ "$s" == check. ]; then
                         echo "done"
                         break
+                        tail check-log
                 fi
 
                 sleep 10
