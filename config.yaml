@@ -1,5 +1,6 @@
 # proxypool远程服务器的地址，空白为http://127.0.0.1:8080
 server_url: 
+- https://raw.githubusercontent.com/jth445600/proxy-pool/main/clash/proxies
 #
 # - https://free-spy.445600.ga/ 
 - https://proxy.yugogo.xyz/
@@ -15,7 +16,7 @@ server_url:
 #- https://proxy.51798.xyz/ 
 #- https://hello.stgod.com/ 
 - https://free886.herokuapp.com/ 
- - https://raw.githubusercontent.com/jth445600/proxy-pool/main/clash/proxies
+ 
 - https://etproxypool.ga/
 #- https://ditan.ml/
 
