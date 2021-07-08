@@ -1,2 +1,2 @@
 # proxy-pool-check
-test action 
+使用github action 来跑proxypoolcheck
