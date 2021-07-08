@@ -54,7 +54,7 @@ jobs:
                         break
                         
                 fi
-                tail check-log
+                tail  -n 3 check-log
                 sleep 10
                 i=$(( $i+1  ))
           done
