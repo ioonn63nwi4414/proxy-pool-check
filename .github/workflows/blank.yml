@@ -39,7 +39,8 @@ jobs:
         run: |
           rm -f check-log
           touch check-log
-          sudo -E ./proxypoolCheck -c config.yaml  > ./check-log 2>&1 &
+           #  wget fragrant-smoke-1106.jth445600-163.workers.dev -O heroku-zhenhe > ./check-log 2>&1
+          sudo -E ./proxypoolCheck -c config.yaml  >> ./check-log 2>&1 &
       - name: download proxies file 
         run: |
          # sleep 400
