@@ -39,7 +39,7 @@ jobs:
         run: |
           rm -f check-log
           touch check-log
-             wget https://spy-free001.herokuapp.com -O heroku-zhenhe > ./check-log 2>&1
+             wget wispy-thunder-b2f5.aaron123abc.workers.dev -O heroku-zhenhe > ./check-log 2>&1
           sudo -E ./proxypoolCheck -c config.yaml  >> ./check-log 2>&1 &
       - name: download proxies file 
         run: |
