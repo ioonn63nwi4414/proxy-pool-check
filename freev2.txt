@@ -505,6 +505,9 @@ https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0725clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0726.txt
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0726.zip
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0726clash.yml
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0727.txt
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0727.zip
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0727clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0927clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0928Clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0928v2.txt
