@@ -3,6 +3,7 @@ server_url:
 - https://raw.githubusercontent.com/jth445600/proxy-pool/main/clash/proxies
 #
 # - https://free-spy.445600.ga/ 
+- http://129.146.187.161:12580/
 - https://proxy.yugogo.xyz/clash/proxies?c=CN,TW,JP,KR,SG,HK
 -  https://hm2019721.ml/clash/proxies?c=CN,TW,JP,KR,SG,HK
 #-  http://127.0.0.1:12580 
@@ -32,11 +33,11 @@ request: http   # http / https
 domain:       # default: 127.0.0.1
 port:   90        # default: 80
 
-cron_interval: 60 # default: 15  minutes
+cron_interval: 45 # default: 15  minutes
 show_remote_speed:  # default false
 healthcheck_timeout: 15    # default 5
 healthcheck_connection: 100 # default 100
-speedtest:   true   # default false
+speedtest:      # default false
 #connection:  5   # default 5
 #timout:    15     # default 10
 speed_timeout:    5     # default 10
