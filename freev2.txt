@@ -619,6 +619,9 @@ https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0905clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0906.txt
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0906.zip
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0906clash.yml
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0907.txt
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0907.zip
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0907clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0927clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0928Clash.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0928v2.txt
@@ -939,5 +942,7 @@ https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/clash0930.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/clash1003.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/clash1005.yml
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/clash小猫咪1002.yml
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/movie.html
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/ss.txt
 https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/test.txt
+https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/电影网址.txt
