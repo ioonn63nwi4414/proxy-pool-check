@@ -40,42 +40,21 @@ jobs:
           rm -f check-log
           touch check-log
             # wget wispy-thunder-b2f5.aaron123abc.workers.dev -O heroku-zhenhe > ./check-log 2>&1
-          sudo -E ./proxypoolCheck -c config.yaml  >> ./check-log 2>&1 &
+          #sudo -E ./proxypoolCheck -c config.yaml  >> ./check-log 2>&1 &
       - name: download proxies file 
         run: |
-         # sleep 400
-          s=0 
-          s=$(tail -n 1 check-log | cut -d " " -f 4 )
-          i=0
-          while [ "$i" -le 100 ]
-            do      
-                s=$(tail -n 1 check-log | cut -d " " -f 4)      
-                if [ "$s" == check. ]; then
-                        echo "done"
-                        break
-                        
-                fi
-                tail  -n 3 check-log
-                sleep 10
-                i=$(( $i+1  ))
-          done
-          echo $i >> ./check-log 2>&1
-          rm -rf clash
-          mkdir clash
-          wget http://127.0.0.1:90/clash/proxies?c=CN,HK,TW,JP,KR,SG -O clash/proxies
-          git clone https://github.com/pojiezhiyuanjun/freev2.git  >> ./check-log 2>&1
-          touch freev2.txt
-          ls freev2/ | awk '{print "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/"$0}'  > freev2.txt
-          git clone https://github.com/JACKUSR2089/v2ray-subscribed.git >> ./check-log 2>&1
-          touch freev3.txt
-          ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  >  freev3.txt
+
+            git clone https://github.com/pojiezhiyuanjun/freev2.git  >> ./check-log 2>&1
+            touch freev2.txt
+            ls freev2/ | awk '{print "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/"$0}'  > freev2.txt
+            git clone https://github.com/JACKUSR2089/v2ray-subscribed.git >> ./check-log 2>&1
+            touch freev3.txt
+            ls v2ray-subscribed/subscribed/ | awk '{print "https://raw.githubusercontent.com/JACKUSR2089/v2ray-subscribed/master/subscribed/"$0}'  >  freev3.txt
           
       - name: 提交更改
         run: |                 
-         git config --local user.email "jth445600@gmail.com"
-          git config --local user.name "jth445600"
-          git add clash/proxies
-          git add check-log
+         git config --local user.email "temp1@445600.ga"
+          git config --local user.name "Laurence8866"
           git add freev2.txt
           git add freev3.txt
           git commit -m "更新订阅链接"
